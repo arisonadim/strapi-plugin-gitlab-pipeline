@@ -1,4 +1,4 @@
-# Strapi plugin gitlab-publish
+# Strapi plugin gitlab-pipeline
 
 [![NPM version][npm-image]][npm-url]
 [![PR Welcome][npm-downloads-image]][npm-downloads-url]
@@ -22,19 +22,19 @@ Install this plugin with npm / yarn / pnpm.
 With npm:
 
 ```bash
-npm install strapi-plugin-github-publish
+npm install strapi-plugin-gitlab-pipeline
 ```
 
 With yarn:
 
 ```bash
-yarn add strapi-plugin-github-publish
+yarn add strapi-plugin-gitlab-pipeline
 ```
 
 With pnpm:
 
 ```bash
-pnpm add strapi-plugin-github-publish
+pnpm add strapi-plugin-gitlab-pipeline
 ```
 
 ## Configuration
@@ -43,7 +43,7 @@ Generate a config file at `config/plugins.js` or `config/development/plugins.js`
 
 ```javascript
 module.exports = ({ env }) => ({
-  "github-publish": {
+  "gitlab-pipeline": {
     enabled: true,
     config: {
       project_id: env("GITLAB_PROJECT_ID"),

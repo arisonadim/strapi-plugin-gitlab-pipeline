@@ -1,1 +1,1 @@
-export const PLUGIN_ID = 'gitlab-publish';
+export const PLUGIN_ID = 'gitlab-pipeline';

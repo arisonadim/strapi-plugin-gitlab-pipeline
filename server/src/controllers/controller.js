@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const pluginId = 'plugin.gitlab-publish';
+const pluginId = 'plugin.gitlab-pipeline';
 
 const controller = ({ strapi }) => ({
   publish: async (ctx) => {
